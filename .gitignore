@@ -1,0 +1,23 @@
+# Ignore all directories named __pycache__ in any location within the repository.
+**/__pycache__
+
+# Ignore Python bytecode files directly under the repository's root directory.
+__pycache__/
+
+# Ignore the .venv folder
+.venv
+
+# Ignore the .vscode folder
+.vscode
+
+# Ignore the these folder
+logs
+components
+foods
+temp
+
+# Ignore the .log and files
+*.log
+
+# Ignore the urls.txt
+urls.txt
