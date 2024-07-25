@@ -18,6 +18,8 @@ temp
 
 # Ignore the .log and files
 *.log
+*.csv
+*.db
 
 # Ignore the urls.txt
 urls.txt
