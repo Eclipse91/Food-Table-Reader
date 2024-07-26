@@ -345,7 +345,7 @@ def log_configurator():
     log_file = f'{log_directory}{current_file_name}_{formatted_datetime}.log'
 
     logging.basicConfig(
-        filename=log_file, level=logging.INFO, format='%(message)s'
+        filename=log_file, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s'
         )
     logging.info('Program started')
 
@@ -406,6 +406,7 @@ def main():
         # Set up the Firefox WebDriver 
         driver_path = GeckoDriverManager().install()
         service = Service(executable_path=driver_path)
+        # service = Service(executable_path='geckodriver') # for me has to be in the root
         options = webdriver.FirefoxOptions()
         options.add_argument('--headless')  # Run in headless mode (no GUI)
         driver = webdriver.Firefox(service=service, options=options)
@@ -423,6 +424,7 @@ def main():
             try:
                 # Set up the Chrome WebDriver 
                 service = Service(EdgeChromiumDriverManager().install())
+                # service = Service(executable_path='msedgedriver')
                 options = webdriver.EdgeOptions()
                 options.add_argument('--headless')  # Run in headless mode (no GUI)
 

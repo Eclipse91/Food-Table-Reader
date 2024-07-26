@@ -1,0 +1,179 @@
+Apples, fuji, with skin, raw
+Apples, gala, with skin, raw
+Apples, honeycrisp, with skin, raw
+Apples, granny smith, with skin, raw
+Apples, red delicious, with skin, raw
+Apple juice, with added vitamin C, from concentrate, shelf stable
+Bananas, overripe, raw
+Bananas, ripe and slightly ripe, raw
+Carrots, baby, raw
+Carrots, frozen, unprepared
+Carrots, mature, raw
+Spinach, baby
+Spinach, mature
+Flour, potato
+Potatoes, gold, without skin, raw
+Potatoes, red, without skin, raw
+Potatoes, russet, without skin, raw
+Sweet potatoes, orange flesh, without skin, raw
+Onions, red, raw
+Onions, white, raw
+Onions, yellow, raw
+Onion rings, breaded, par fried, frozen, prepared, heated in oven
+Garlic, raw
+Lettuce, iceberg, raw
+Lettuce, cos or romaine, raw
+Lettuce, leaf, green, raw
+Lettuce, leaf, red, raw
+Lettuce, romaine, green, raw
+Cucumber, with peel, raw
+Pickles, cucumber, dill or kosher dill
+Peppers, bell, green, raw
+Peppers, bell, orange, raw
+Peppers, bell, red, raw
+Peppers, bell, yellow, raw
+Mushroom, beech
+Mushroom, crimini
+Mushroom, enoki
+Mushroom, maitake
+Mushroom, oyster
+Mushroom, pioppini
+Mushroom, portabella
+Mushrooms, shiitake
+Mushroom, king oyster
+Mushroom, lion's mane
+Mushrooms, white button
+Celery, raw
+Tomato, roma
+Tomato, puree, canned
+Tomatoes, crushed, canned
+Tomatoes, grape, raw
+Tomato, sauce, canned, with salt added
+Tomatoes, canned, red, ripe, diced
+Tomato, paste, canned, without salt added
+Tomatoes, whole, canned, solids and liquids, with salt added
+Tomato juice, with added ingredients, from concentrate, shelf stable
+Broccoli, raw
+Cauliflower, raw
+Squash, summer, green, zucchini, includes skin, raw
+Eggplant, raw
+Beans, snap, green, raw
+Beans, snap, green, canned, regular pack, drained solids
+Blackeye pea, dry
+Blackeye pea, canned, sodium added, drained and rinsed
+Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed
+Oil, corn
+Flour, corn, yellow, fine meal, enriched
+Sweet potatoes, orange flesh, without skin, raw
+Brussels sprouts, raw
+Kale, raw
+Kale, frozen, cooked, boiled, drained, without salt
+Cabbage, green, raw
+Cabbage, red, raw
+Cabbage, bok choy, raw
+Squash, winter, acorn, raw
+Squash, winter, butternut, raw
+Squash, summer, yellow, includes skin, raw
+Squash, summer, green, zucchini, includes skin, raw
+Squash, winter, butternut, raw
+Seeds, pumpkin seeds (pepitas), raw
+Cabbage, red, raw
+Flour, cassava
+Pickles, cucumber, dill or kosher dill
+Peanut butter, creamy
+Almond butter, creamy
+Yogurt, plain, nonfat
+Yogurt, Greek, plain, nonfat
+Yogurt, Greek, strawberry, nonfat
+Yogurt, plain, whole milk
+Yogurt, Greek, plain, whole milk
+Cheese, cottage, lowfat, 2% milkfat
+Cottage cheese, full fat, large or small curd
+Cream cheese, full fat, block
+Cheese, ricotta, whole milk
+Cheese, parmesan, grated
+Cheese, parmesan, grated, refrigerated
+Cheese, cheddar
+Cheese, swiss
+Cheese, mozzarella, low moisture, part-skim
+Cheese, feta, whole milk, crumbled
+Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)
+Cheese, ricotta, whole milk
+Yogurt, plain, whole milk
+Cheese, feta, whole milk, crumbled
+Yogurt, Greek, plain, whole milk
+Milk, whole, 3.25% milkfat, with added vitamin D
+Soy milk, sweetened, plain, refrigerated
+Soy milk, unsweetened, plain, shelf stable
+Almond milk, unsweetened, plain, refrigerated
+Almond milk, unsweetened, plain, shelf stable
+Oat milk, unsweetened, plain, refrigerated
+Cream, heavy
+Cream, heavy
+Cream, sour, full fat
+Cream cheese, full fat, block
+Cream, sour, full fat
+Almond butter, creamy
+Butter, stick, salted
+Butter, stick, unsalted
+Peanut butter, creamy
+Sesame butter, creamy
+Oil, olive, extra light
+Oil, olive, extra virgin
+Oil, canola
+Oil, sunflower
+Oil, coconut
+Frankfurter, beef, unheated
+Beef, chuck, roast, boneless, choice, raw
+Beef, flank, steak, boneless, choice, raw
+Frankfurter, beef, unheated
+Beef, chuck, roast, boneless, choice, raw
+Beef, flank, steak, boneless, choice, raw
+Beef, ribeye, steak, boneless, choice, raw
+Beef, round, top round, boneless, choice, raw
+Sausage, breakfast sausage, beef, pre-cooked, unprepared
+Beef, ground, 80% lean meat / 20% fat, raw
+Beef, ground, 90% lean meat / 10% fat, raw
+Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0" fat, select, cooked, roasted
+Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0" fat, select, raw
+Beef, round, top round roast, boneless, separable lean only, trimmed to 0" fat, select, raw
+Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8" fat, select, raw
+Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8" fat, choice, raw
+Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8" fat, choice, cooked, grilled
+Pork, ground, raw
+Pork, loin, boneless, raw
+Restaurant, Latino, tamale, pork
+Pork, cured, bacon, cooked, restaurant
+Pork, loin, tenderloin, boneless, raw
+Restaurant, Chinese, sweet and sour pork
+Sausage, Italian, pork, mild, cooked, pan-fried
+Sausage, pork, chorizo, link or ground, cooked, pan-fried
+Ham, sliced, restaurant
+Chicken, ground, with additives, raw
+Chicken, breast, boneless, skinless, raw
+Chicken, thigh, boneless, skinless, raw
+Chicken, broilers or fryers, drumstick, meat only, cooked, braised
+Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised
+Sausage, turkey, breakfast links, mild, raw
+Turkey, ground, 93% lean/ 7% fat, raw
+Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles
+Fish, salmon, Atlantic, farm raised, raw
+Fish, salmon, sockeye, wild caught, raw
+Fish, tuna, light, canned in water, drained solids
+Crustaceans, shrimp, farm raised, raw
+Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated
+Chickpeas, (garbanzo beans, bengal gram), dry
+Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed
+Lentils, dry
+Beans, Dry, Black (0% moisture)
+Beans, black, canned, sodium added, drained and rinsed
+Beans, Dry, Dark Red Kidney (0% moisture)
+Beans, Dry, Light Red Kidney (0% moisture)
+Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed
+Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed
+Beans, Dry, Pinto (0% moisture)
+Beans, pinto, canned, sodium added, drained and rinsed
+Beans, Dry, Navy (0% moisture)
+Beans, navy, canned, sodium added, drained and rinsed
+Flour, quinoa
+Flour, barley

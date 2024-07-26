@@ -14,12 +14,13 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 ## Requirements
 
 - Python 3.x
-- Google Chrome installed
 - Required Python packages are listed in the requirements.txt file
+- Google Chrome, Firefox, or Edge should be installed, or you should have the respective driver. If the driver is used, you'll need to update the code with the path to it.
 
 ## Drivers Download
-- Microsoft Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH
 - Firefox: https://github.com/mozilla/geckodriver/releases
+- Chrome: https://googlechromelabs.github.io/chrome-for-testing/
+- Microsoft Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH
 
 ## Getting Started
 
