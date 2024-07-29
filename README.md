@@ -14,7 +14,7 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 ## Requirements
 
 - Python 3.x
-- Required Python packages are listed in the requirements.txt file
+- Required Python packages are listed in the requirements.txt file.
 - Google Chrome, Firefox, or Edge should be installed, or you should have the respective driver. If the driver is used, you'll need to update the code with the path to it.
 
 ## Drivers Download
@@ -50,8 +50,8 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 - `foods.txt`: A text file containing the list of foods you usually eat, one per line.
 
 ## Optional Files to Speed Up
-- `corrected_foods.txt`: A text file containing the list of foods which you are sure are present in the U.S. Department of Agriculture database with that name.
-- `urls.txt`: A text file containing the list of URLs of the foods you want to analyze in the U.S. Department of Agriculture database.
+- `corrected_foods.txt`: A text file containing the list of foods which you are sure are present in the U.S. Department of Agriculture database with that name. Add its path to the CORRECTED_FOODS constant in the main.py file.
+- `urls.txt`: A text file containing the list of URLs of the foods you want to analyze in the U.S. Department of Agriculture database. Add its path to the URLS constant in the main.py file.
 
 ## Usage
 1. **Prepare the URL List**: Ensure `foods.txt` is filled with the foods you eat regularly.

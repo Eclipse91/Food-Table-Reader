@@ -10,17 +10,18 @@ __pycache__/
 # Ignore the .vscode folder
 .vscode
 
-# Ignore the these folder
+# Ignore the these folders
 logs
 temp
+foods
 results
 drivers
 
-# Ignore the .log and files
+# Ignore these type of files
 *.log
 *.csv
 *.db
 
-# Ignore the urls.txt
+# Ignore these files
 urls.txt
 foods.txt
