@@ -50,6 +50,7 @@ At the time, I wanted to create a project using Selenium and also analyze my die
    ```
 
 ## Files
+   ```
 ├── example_corrected_foods.txt
 ├── example_urls.txt
 ├── LICENSE
@@ -57,6 +58,7 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 ├── requirements.txt
 ├── main.py
 └── tables_reader.py
+   ```
 
 ## Required Files
 - `foods.txt`: A text file containing the list of foods you usually eat, one per line named foods.txt.
