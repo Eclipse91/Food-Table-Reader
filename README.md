@@ -68,7 +68,7 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 - `urls.txt`: A text file containing the list of URLs of the foods you want to analyze in the U.S. Department of Agriculture database. Add its path to the URLS constant in the main.py file.
 
 ## Usage
-1. **Prepare the URL List**: Ensure `foods.txt` is filled with the foods you eat regularly.
+1. **Prepare the foods file**: Ensure `foods.txt` is filled with the foods you eat regularly.
 2. **Run the Script**:
    ```bash
    python3 main.py

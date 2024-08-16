@@ -19,7 +19,7 @@ def read_file(file_path):
 
 def results_configurator():
     '''
-    Configure the folder where to put all the resulting files.
+    Configure the folders where to put all the resulting files.
     '''
     results_directory = './results/'
     current_datetime = datetime.now()
