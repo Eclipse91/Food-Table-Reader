@@ -12,12 +12,12 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from sqlalchemy import create_engine, MetaData, Table, Column, String, exc, inspect, text, select, func
+from sqlalchemy import create_engine, MetaData, Table, Column, String, Float, exc, inspect, text, select, func
 from sqlalchemy.exc import SQLAlchemyError
 
 # Adda list of valid urls. Check example_urls.txt or directly the USDA Site
-URLS = '' # 'example_urls.txt'
-# Adda list of valid foods. Check example_urls.txt or directly the USDA Site
+URLS = 'example_urls.txt' # 'example_urls.txt'
+# Adda list of valid foods. Check example_corrected_foods.txt or directly the USDA Site
 CORRECTED_FOODS = '' # 'example_corrected_foods.txt'
 
 def convert_to_mg(data):
@@ -29,11 +29,11 @@ def convert_to_mg(data):
         if '<' in value:
             numeric_value = float(value.replace('<', ''))
             if unit == 'µg':
-                value_mg = f'<{numeric_value / 1000}'  # Convert µg to mg
+                value_mg = numeric_value / 1000  # Convert µg to mg
             elif unit == 'g':
-                value_mg = f'<{numeric_value * 1000}'  # Convert g to mg
+                value_mg = numeric_value * 1000  # Convert g to mg
             else:
-                value_mg = f'<{numeric_value}'
+                value_mg = numeric_value
         else:
             numeric_value = float(value)
             if unit == 'µg':
@@ -59,6 +59,9 @@ def list_to_dict(data):
 
 # Function to get the count of records in the table
 def get_record_count(connection, table):
+    '''
+    Get the count of records in a specified database table.
+    '''
     count_stmt = select((func.count())).select_from(table)
     result = connection.execute(count_stmt)
     count = result.scalar()
@@ -77,7 +80,7 @@ def save_to_db(df, table_name, db_path='sqlite:///food_components.db'):
     initial_columns = [Column('Food', String, primary_key=True)]
     for col in df.columns:
         if col != 'Food':
-            initial_columns.append(Column(col, String))
+            initial_columns.append(Column(col, Float))  # Use Float instead of String
 
     logging.info('Initial columns for table')
 
@@ -103,23 +106,22 @@ def save_to_db(df, table_name, db_path='sqlite:///food_components.db'):
             new_columns = []
             for col in df.columns:
                 if col not in existing_column_names:
-                    new_columns.append(Column(col, String))
+                    new_columns.append(Column(col, Float))  # Ensure new columns are added as Float
             
-            logging.info('New columns to add')
-
             # Add new columns if any
             if new_columns:
+                logging.info(f'New columns to add: {new_columns}')
                 for column in new_columns:
-                    alter_stmt = text(f'ALTER TABLE {table_name} ADD COLUMN "{column.name}" {column.type}')
+                    alter_stmt = text(f'ALTER TABLE {table_name} ADD COLUMN "{column.name}" FLOAT')  # Use FLOAT for new columns
                     try:
                         connection.execute(alter_stmt)
-                        logging.info(f'Added column {column.name} to table {table_name}')
+                        logging.info(f'Added column {column.name} of type {column.type} to table {table_name}')
                     except exc.SQLAlchemyError as e:
                         logging.error(f'Error adding column {column.name}: {e}')
 
                 # Update existing rows with default values for new columns
                 for column in new_columns:
-                    update_stmt = text(f'UPDATE {table_name} SET "{column.name}" = "0"')
+                    update_stmt = text(f'UPDATE {table_name} SET "{column.name}" = 0')  # Set default value to 0
                     try:
                         connection.execute(update_stmt)
                         logging.info(f'Updated existing rows with default value for column {column.name}')
@@ -139,9 +141,9 @@ def save_to_db(df, table_name, db_path='sqlite:///food_components.db'):
 
             for _, row in df.iterrows():
                 data = row.to_dict()
-                # Convert all data to string
-                data = {key: str(value) for key, value in data.items()}
-                logging.info('Data to insert:', data)
+                # Convert all data to float (assuming all columns except 'Food' should be float)
+                data = {key: float(value) if key != 'Food' else value for key, value in data.items()}
+                logging.info(f'Data to insert: {data}')
                 stmt = table.insert().values(data).prefix_with('OR REPLACE')
                 logging.info('SQL Statement')
                 connection.execute(stmt)
@@ -431,7 +433,7 @@ def search_food(driver, food, folder_name):
             success = True
             sleep(1)
         except Exception as e:
-            logging.error(f'error in the driver while connecting to the URL of "{food}": {e}')                   
+            logging.error(f'error in the driver while connecting to the URL of "{food}": {e}')
 
 def read_file(file_path):
     '''
@@ -477,13 +479,14 @@ def execution_time(func):
     The datetime format is 'YYYYMMDD_HHMMSS'.
     '''
     def wrapper():
-        current_datetime = datetime.now()
-        formatted_datetime = current_datetime.strftime('%Y%m%d_%H%M%S')
-        print(formatted_datetime)
+        starting_datetime = datetime.now()
+        formatted_datetime = starting_datetime.strftime('%Y%m%d_%H%M%S')
+        print(f'Program started at {formatted_datetime}\n')
         func()
         current_datetime = datetime.now()
         formatted_datetime = current_datetime.strftime('%Y%m%d_%H%M%S')
-        print(formatted_datetime)
+        print(f'Program ended at {formatted_datetime}\n')
+        print(f'{current_datetime - starting_datetime}')
     return wrapper
 
 @execution_time
@@ -491,12 +494,13 @@ def main():
     # Configure and initialize the logger file
     log_configurator()
 
-    # Configure the  folder where to put the results
+    # Configure the folder where to put the results
     folder_name = results_configurator()
 
     # Set up the Driver
     try:
         # Set up the Firefox WebDriver 
+        a= 1/0
         driver_path = GeckoDriverManager().install()
         service = Service(executable_path=driver_path)
         # service = Service(executable_path='geckodriver') # for me has to be in the root
@@ -508,6 +512,8 @@ def main():
         try:
             # Set up the Chrome WebDriver 
             service = Service(ChromeDriverManager().install())
+            # driver_path = os.path.join(os.getcwd(), 'drivers', 'chromedriver')
+            service = Service(executable_path=driver_path)
             options = webdriver.ChromeOptions()
             options.add_argument('--headless')  # Run in headless mode (no GUI)
 

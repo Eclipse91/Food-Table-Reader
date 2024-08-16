@@ -19,9 +19,12 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 
 ## Drivers Download
 - Firefox: https://github.com/mozilla/geckodriver/releases
+   Ensure that the GeckoDriver version is compatible with your Firefox browser version.
 - Chrome: https://googlechromelabs.github.io/chrome-for-testing/
+   Make sure the ChromeDriver version aligns with your Chrome browser version. 
 - Microsoft Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH
-
+   Confirm that the EdgeDriver version matches your Microsoft Edge browser version.
+   
 ## Getting Started
 
 1. **Clone the repository**:

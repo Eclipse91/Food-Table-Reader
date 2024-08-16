@@ -16,6 +16,7 @@ temp
 foods
 results
 drivers
+documentation
 
 # Ignore these type of files
 *.log
