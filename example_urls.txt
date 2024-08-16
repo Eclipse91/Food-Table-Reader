@@ -98,8 +98,6 @@ https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003590/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/746771/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003591/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003597/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003597/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003591/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346411/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346410/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/325430/nutrients
@@ -117,7 +115,6 @@ https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003601/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003600/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003602/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999627/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003599/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003604/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2003598/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/1999628/nutrients
@@ -137,18 +134,14 @@ https://fdc.nal.usda.gov/fdc-app.html#/food-details/2512377/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262072/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2647437/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/330137/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/330137/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/330415/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259793/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259794/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259794/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346384/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2346385/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/746766/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/325036/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259795/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259795/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/328637/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/746767/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/329370/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2259796/nutrients
@@ -183,6 +176,5 @@ https://fdc.nal.usda.gov/fdc-app.html#/food-details/2646171/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/331897/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/331960/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/746783/nutrients
-https://fdc.nal.usda.gov/fdc-app.html#/food-details/334194/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684443/nutrients
 https://fdc.nal.usda.gov/fdc-app.html#/food-details/2684446/nutrients

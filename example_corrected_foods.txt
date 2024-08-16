@@ -98,8 +98,6 @@ Apple juice, with added vitamin C, from concentrate, shelf stable
 Oranges, raw, navels
 Orange juice, no pulp, not fortified, from concentrate, refrigerated
 Orange juice, no pulp, not fortified, not from concentrate, refrigerated
-Orange juice, no pulp, not fortified, not from concentrate, refrigerated
-Orange juice, no pulp, not fortified, from concentrate, refrigerated
 Blueberries, raw
 Raspberries, raw
 Peaches, yellow, raw
@@ -117,7 +115,6 @@ Mushroom, crimini
 Mushroom, enoki
 Mushroom, maitake
 Mushroom, oyster
-Mushroom, king oyster
 Mushroom, pioppini
 Mushroom, portabella
 Mushrooms, shiitake
@@ -137,18 +134,14 @@ Flour, cassava
 Peanut butter, creamy
 Yogurt, plain, nonfat
 Yogurt, Greek, plain, nonfat
-Yogurt, Greek, plain, nonfat
 Yogurt, Greek, strawberry, nonfat
 Yogurt, plain, whole milk
-Yogurt, Greek, plain, whole milk
 Yogurt, Greek, plain, whole milk
 Cottage cheese, full fat, large or small curd
 Cream cheese, full fat, block
 Cheese, ricotta, whole milk
 Cheese, parmesan, grated
 Cheese, parmesan, grated, refrigerated
-Cheese, parmesan, grated, refrigerated
-Cheese, cheddar
 Cheese, swiss
 Cheese, mozzarella, low moisture, part-skim
 Cheese, feta, whole milk, crumbled
@@ -183,6 +176,5 @@ Chicken, thigh, boneless, skinless, raw
 Chicken, broilers or fryers, drumstick, meat only, cooked, braised
 Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised
 Sausage, turkey, breakfast links, mild, raw
-Fish, tuna, light, canned in water, drained solids
 Crustaceans, shrimp, farm raised, raw
 Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated

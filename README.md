@@ -19,12 +19,12 @@ At the time, I wanted to create a project using Selenium and also analyze my die
 
 ## Drivers Download
 - Firefox: https://github.com/mozilla/geckodriver/releases
-   Ensure that the GeckoDriver version is compatible with your Firefox browser version.
+  - Ensure that the GeckoDriver version is compatible with your Firefox browser version. It works only in the roots for me.
 - Chrome: https://googlechromelabs.github.io/chrome-for-testing/
-   Make sure the ChromeDriver version aligns with your Chrome browser version. 
+  - Make sure the ChromeDriver version aligns with your Chrome browser version. 
 - Microsoft Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH
-   Confirm that the EdgeDriver version matches your Microsoft Edge browser version.
-   
+  - Confirm that the EdgeDriver version matches your Microsoft Edge browser version.
+
 ## Getting Started
 
 1. **Clone the repository**:
@@ -49,8 +49,17 @@ At the time, I wanted to create a project using Selenium and also analyze my die
    python3 main.py
    ```
 
+## Files
+├── example_corrected_foods.txt
+├── example_urls.txt
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── main.py
+└── tables_reader.py
+
 ## Required Files
-- `foods.txt`: A text file containing the list of foods you usually eat, one per line.
+- `foods.txt`: A text file containing the list of foods you usually eat, one per line named foods.txt.
 
 ## Optional Files to Speed Up
 - `corrected_foods.txt`: A text file containing the list of foods which you are sure are present in the U.S. Department of Agriculture database with that name. Add its path to the CORRECTED_FOODS constant in the main.py file.
