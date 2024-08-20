@@ -3,8 +3,9 @@
 ## Overview
 This script is designed to extract nutritional data from a given `foods.txt` file containing various foods, process the data to convert measurements into milligrams (mg), and save the data to a SQLite database. Any value is based on 100 grams of the product.
 
-## Why didn't I use the API?
-At the time, I wanted to create a project using Selenium and also analyze my diet deeply to look for deficiencies. That's why I created this slow program that still works effectively.
+## Why Didn’t I Use the API?
+
+Initially, I aimed to create a project with Selenium to deeply analyze my diet for deficiencies. As a result, I developed this slower program, which still works effectively. I also created an API version, which you can find here: [Food-Analyzer](https://github.com/Eclipse91/Food-Analyzer).
 
 ## Features
 1. **Web Scraping**: Utilizes Selenium WebDriver to scrape nutritional data from web pages.
